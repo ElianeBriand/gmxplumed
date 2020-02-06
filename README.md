@@ -12,7 +12,7 @@
 ## Docker hub image:
 
 ```
-docker run -it elianebriand/gmxplumed_avx2
+docker pull elianebriand/gmxplumed_avx2
 ```
 
 ## Notes
