@@ -84,6 +84,5 @@ RUN /bin/bash -c "source /usr/local/bin/GMXRC.bash"
 
 # print gromacs and plumed versions and enter bash shell
 CMD gmx --version \
-  && echo "Plumed version: $(plumed info --long-version)" \
-  && bash
+  && echo "Plumed version: $(plumed info --long-version)"
 
